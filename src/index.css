@@ -1,0 +1,75 @@
+* {
+  font-family: "Roboto";
+  color: #195513;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "Kaushan Script";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f9fcff;
+}
+
+/* .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 100;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} */
+
+.tooltip-text {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  z-index: 2;
+  width: 150px;
+  color: white;
+  font-size: 12px;
+  background-color: #192733;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+#fade {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#delay {
+  opacity: 0;
+  transition: opacity 0.2s;
+  transition-delay: 1s;
+}
+
+.hover-text:hover #fade {
+  opacity: 1;
+}
+.hover-text:hover #delay {
+  opacity: 1;
+}
+
+.hover-text {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  font-family: Arial;
+  text-align: center;
+}

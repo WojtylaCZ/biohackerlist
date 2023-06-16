@@ -1,0 +1,23 @@
+{
+  "titles": {
+    "mainH1": "můj Biohacker list",
+    "contactH2": "Kontakt",
+    "error": "Tady chybí udržovaná trať.",
+    "jumpHome": "Přejít na začátek"
+  },
+  "text": {
+    "introLine1": "Posunout sám sebe. Zdravý životní styl. Tvůj výběr.",
+    "introLine2": "Najdi si biohack, který ti sedí. Nebo se jen nech inspirovat.",
+    "introLine3": "Seznam biohacku na jednom místě. Podložené vědou. Budované komunitou. Moderováno.",
+    "introLine4": "Web nenabízí lékařské rady a nenese žádnou zodpovědnost. Zkoušejte na vlastní nebezpečí."
+  },
+  "trailpark": {
+    "showDetailsH6": "Zobrazit detail",
+    "hideDetailsH6": "Skrýt detail",
+    "qrCodeH5": "QR kód pro platbu:",
+    "accountNumberH5": "Číslo účtu:",
+    "publicAccountH6": "Transparentní účet",
+    "operatorH5": "Provozovatel:",
+    "lastUpdatedAt": "Naposledy aktualizováno "
+  }
+}

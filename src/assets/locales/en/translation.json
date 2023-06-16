@@ -1,0 +1,24 @@
+{
+  "titles": {
+    "mainH1": "my Biohacker list",
+    "contactH2": "Contact",
+    "error": "There is no maintained track over here.",
+    "jumpHome": "Go to homepage"
+  },
+
+  "text": {
+    "introLine1": "Boosting yourself. Healthy natural lifestyle. My choice.",
+    "introLine2": "Find a biohack that works for your. Or just get inspired.",
+    "introLine3": "List of biohacks at one place. Science based. Community driven. Moderated.",
+    "introLine4": "Webc is to not giving any medical advice and does not take any liability. On your own risk."
+  },
+  "trailpark": {
+    "showDetailsH6": "Show detail",
+    "hideDetailsH6": "Hide detail",
+    "qrCodeH5": "QR code bank transfer:",
+    "accountNumberH5": "Bank account number:",
+    "publicAccountH6": "Public account",
+    "operatorH5": "Operator:",
+    "lastUpdatedAt": "Last updated at "
+  }
+}
