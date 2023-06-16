@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/biohackerlist/static/css/main.9a5576ab.css",
+    "main.js": "/biohackerlist/static/js/main.3f304bd9.js",
+    "static/js/787.d6b98a22.chunk.js": "/biohackerlist/static/js/787.d6b98a22.chunk.js",
+    "static/media/bulp.png": "/biohackerlist/static/media/bulp.e4b1594b275dbde07dc6.png",
+    "index.html": "/biohackerlist/index.html",
+    "static/media/chevron-down.svg": "/biohackerlist/static/media/chevron-down.bdc5512bebaafee5cfb979d7683ecb5e.svg",
+    "static/media/chevron-up.svg": "/biohackerlist/static/media/chevron-up.0fab3e8c7e4f106fee079a2fdd13ffa2.svg",
+    "main.9a5576ab.css.map": "/biohackerlist/static/css/main.9a5576ab.css.map",
+    "main.3f304bd9.js.map": "/biohackerlist/static/js/main.3f304bd9.js.map",
+    "787.d6b98a22.chunk.js.map": "/biohackerlist/static/js/787.d6b98a22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a5576ab.css",
+    "static/js/main.3f304bd9.js"
+  ]
+}
