@@ -28,6 +28,7 @@ type ResourceType = "book" | "article" | "podcast";
 type ResourceLocale = {
   [key: string]: {
     name_locale: string;
+    annotation_locale: string;
     resources: Array<{ type: ResourceType; title: string; link: string }>;
   };
 };
@@ -63,6 +64,7 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
         <a href={resource.link} target="_blank" rel="noopener noreferrer">
           {icon}
         </a>
+        <br />
       </>
     );
   });
@@ -175,26 +177,6 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
               alignItems: "center",
             }}
           >
-            <div>
-              <div className="hover-text">
-                ✅
-                <span className="tooltip-text" id="fade">
-                  Tohle jsem vyzkousel
-                </span>
-              </div>
-              <div className="hover-text">
-                📈
-                <span className="tooltip-text" id="fade">
-                  Delam!
-                </span>
-              </div>
-              <div className="hover-text">
-                🆒
-                <span className="tooltip-text" id="fade">
-                  Vypada zajimave!
-                </span>
-              </div>
-            </div>
             <h6
               style={{
                 fontSize: "smaller",
@@ -220,21 +202,52 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
           <Container>
             <div style={{ margin: "10px" }}>
               <Row>
-                <div style={{ margin: "10px" }}>
-                  Od pradávna jsem se budili se světlem a usínali s tmou. V dnešním moderním světě s
-                  osvětlením, mobily, budíky žijeme často jiným rytmem než jsou naše vnitřní hodiny.
-                </div>
+                <div style={{ margin: "10px" }}>{hack.locales.cs.annotation_locale}</div>
               </Row>
               <Row>
-                {" "}
                 <Col>Zdroje: </Col>
               </Row>
               <Row>
-                <Col>
-                  V 🇨🇿: <Stack>{csResources}</Stack>{" "}
-                </Col>
+                <Col>V 🇨🇿: {csResources}</Col>
 
                 <Col>In 🇺🇸: {enResources} </Col>
+              </Row>
+              <hr />
+              <Row>
+                <Col>
+                  {" "}
+                  133x libi 👍 / 12x nelibi 👎
+                  <br />
+                  <br />
+                  68 biohackeru ma v oblibenych
+                </Col>
+                <Col>
+                  <Stack>
+                    <span>✅ Tohle jsem vyzkousel</span>
+
+                    <span>📈 Delam!</span>
+
+                    <span>🆒 Vypada zajimave!</span>
+                  </Stack>
+                  {/* <div className="hover-text">
+                    ✅
+                    <span className="tooltip-text" id="fade">
+                      Tohle jsem vyzkousel
+                    </span>
+                  </div>
+                  <div className="hover-text">
+                    📈
+                    <span className="tooltip-text" id="fade">
+                      Delam!
+                    </span>
+                  </div>
+                  <div className="hover-text">
+                    🆒
+                    <span className="tooltip-text" id="fade">
+                      Vypada zajimave!
+                    </span>
+                  </div> */}
+                </Col>
               </Row>
             </div>
           </Container>

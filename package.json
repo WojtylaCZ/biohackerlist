@@ -2,7 +2,7 @@
   "name": "prispevkynabezky",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prispevkynabezky.cz",
+  "homepage": "https://wojtylacz.github.io/biohackerlist",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",

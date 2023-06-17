@@ -11,6 +11,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Sladěný cirkadiální rytmus",
+            annotation_locale:
+              "Od pradávna jsem se budili se světlem a usínali s tmou. V dnešním moderním světě s osvětlením, mobily, budíky žijeme často jiným rytmem než jsou naše vnitřní hodiny.",
             resources: [
               {
                 type: "book",
@@ -21,6 +23,8 @@ export const data: Array<BiohackCategories> = [
           },
           en: {
             name_locale: "Aligned with circadian rythm",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "book",
@@ -38,6 +42,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Studená sprcha po ránu",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "podcast",
@@ -48,6 +54,8 @@ export const data: Array<BiohackCategories> = [
           },
           en: {
             name_locale: "Cold shower in the morning",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -65,6 +73,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Dýchací cvičení",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -75,6 +85,8 @@ export const data: Array<BiohackCategories> = [
           },
           en: {
             name_locale: "Aligned with circadian rythm",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -92,6 +104,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Blokace modrého světla",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -102,6 +116,8 @@ export const data: Array<BiohackCategories> = [
           },
           en: {
             name_locale: "Aligned with circadian rythm",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -119,6 +135,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Přerušovaný půst",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -134,6 +152,8 @@ export const data: Array<BiohackCategories> = [
           },
           en: {
             name_locale: "Interminent fasting",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -151,6 +171,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Dýchaní nosem",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "article",
@@ -173,6 +195,8 @@ export const data: Array<BiohackCategories> = [
         locales: {
           cs: {
             name_locale: "Spaní ve tmě",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "book",
@@ -183,6 +207,8 @@ export const data: Array<BiohackCategories> = [
           },
           en: {
             name_locale: "Aligned with circadian rythm",
+            annotation_locale:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             resources: [
               {
                 type: "book",
