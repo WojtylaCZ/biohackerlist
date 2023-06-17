@@ -213,23 +213,23 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
                 <Col>In 🇺🇸: {enResources} </Col>
               </Row>
               <hr />
-              <Row>
-                <Col>
-                  {" "}
-                  133x libi 👍 / 12x nelibi 👎
-                  <br />
-                  <br />
-                  68 biohackeru ma v oblibenych
-                </Col>
-                <Col>
-                  <Stack>
-                    <span>✅ Tohle jsem vyzkousel</span>
+              {hack.slug !== "new-hack" ? (
+                <Row>
+                  <Col>
+                    133x libi 👍 / 12x nelibi 👎
+                    <br />
+                    <br />
+                    68 biohackeru ma v oblibenych
+                  </Col>
+                  <Col>
+                    <Stack>
+                      <span>✅ Tohle jsem vyzkousel</span>
 
-                    <span>📈 Delam!</span>
+                      <span>📈 Delam!</span>
 
-                    <span>🆒 Vypada zajimave!</span>
-                  </Stack>
-                  {/* <div className="hover-text">
+                      <span>🆒 Vypada zajimave!</span>
+                    </Stack>
+                    {/* <div className="hover-text">
                     ✅
                     <span className="tooltip-text" id="fade">
                       Tohle jsem vyzkousel
@@ -247,8 +247,11 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
                       Vypada zajimave!
                     </span>
                   </div> */}
-                </Col>
-              </Row>
+                  </Col>
+                </Row>
+              ) : (
+                <></>
+              )}
             </div>
           </Container>
         </div>

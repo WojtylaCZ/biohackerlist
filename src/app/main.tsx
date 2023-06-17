@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Image, Stack } from "react-bootstrap";
+import { Button, Image, Stack } from "react-bootstrap";
 import { HacksSection } from "./category";
 import Bulp from "../assets/img/bulp.png";
 
@@ -104,6 +104,10 @@ export const Main = () => {
             }}
           />
         </div>
+
+        <Button type="submit" variant="success">
+          Pridej se k Biohacker list
+        </Button>
 
         <Stack gap={5}>{biohackerList}</Stack>
 
