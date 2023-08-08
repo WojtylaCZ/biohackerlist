@@ -24,11 +24,14 @@ export type Trailpark = {
 };
 
 type ResourceType = "book" | "article" | "podcast";
+type HackComplexity = "easy" | "medium" | "challenging" | "longterm";
 
-type ResourceLocale = {
+type HackLocale = {
   [key: string]: {
     name_locale: string;
     annotation_locale: string;
+    actionInShort: string;
+    complexity: HackComplexity;
     resources: Array<{ type: ResourceType; title: string; link: string }>;
   };
 };
@@ -37,7 +40,7 @@ export type Hack = {
   id: string | number;
   canonical_name: string;
   slug: string;
-  locales: ResourceLocale;
+  locales: HackLocale;
 };
 
 export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) => {
@@ -86,6 +89,7 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
         <a href={resource.link} target="_blank" rel="noopener noreferrer">
           {icon}
         </a>
+        <br />
       </>
     );
   });
@@ -202,15 +206,28 @@ export const HackCard = ({ hack, isFirst }: { hack: Hack; isFirst: boolean }) =>
           <Container>
             <div style={{ margin: "10px" }}>
               <Row>
+                <Col>
+                  <div style={{ margin: "10px" }}>Ve zkratce: {hack.locales.cs.actionInShort}</div>
+                </Col>
+                <Col xs lg="3">
+                  <div>Narocnost: {hack.locales.cs.complexity}</div>
+                </Col>
+              </Row>
+              <Row>
                 <div style={{ margin: "10px" }}>{hack.locales.cs.annotation_locale}</div>
               </Row>
+
               <Row>
                 <Col>Zdroje: </Col>
               </Row>
               <Row>
-                <Col>V 🇨🇿: {csResources}</Col>
+                <Col>
+                  V 🇨🇿: <br /> {csResources}
+                </Col>
 
-                <Col>In 🇺🇸: {enResources} </Col>
+                <Col>
+                  In 🇺🇸: <br /> {enResources}{" "}
+                </Col>
               </Row>
               <hr />
               {hack.slug !== "new-hack" ? (
